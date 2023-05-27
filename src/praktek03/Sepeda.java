@@ -4,4 +4,9 @@ public class Sepeda {
     String Warna;
     double Harga;
     
+    void cetakInfo(){
+        System.out.println("Merk \t : " + Merk + "\n" +
+                           "Warna \t : " + Warna + "\n" +
+                           "Harga \t : " + Harga);
+    }
 }
